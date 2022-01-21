@@ -1,0 +1,38 @@
+.foreground-content .foreground-text {
+  width: 40%;
+  padding: 5%;
+  color: black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px 2px hsla(0, 0%, 0%, 1);
+  font-family: Arial, sans-serif;
+}
+
+img.bg {
+
+  background-size: contain
+
+  /* Set rules to fill background */
+  max-height: 100%;
+  max-width: 10px;
+	
+  /* Set up proportionate scaling */
+  width: auto;
+  height: auto;
+	
+  /* Set up positioning */
+  position: absolute
+  top: 0;
+  left: 0;
+}
+
+.h { 
+  background: url(RayHennessy.jpg.jpg) no-repeat center center fixed; 
+  margin-top: -20px;
+#                        height: 100vh;
+#                        width: 100vh;
+#                        position: absolute; left: 0;
+#                        background-position: center;
+#                        background-repeat: no-repeat;
+  background-size: contain;
+}

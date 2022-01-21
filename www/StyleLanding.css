@@ -1,0 +1,35 @@
+.landing-block {
+  width: 100%;
+  height: 100vh;
+}
+
+.background-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.background-content img {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+
+.foreground-content {
+  position: absolute;
+  top: 10%; /* use "top: 0;" if you are using a standard html page */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foreground-content .foreground-text {
+  width: 40%;
+  padding: 5%;
+  color: black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px 2px hsla(0, 0%, 0%, 1);
+  font-family: Arial, sans-serif;
+}
+
